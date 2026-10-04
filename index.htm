@@ -1,3 +1,36 @@
 <!DOCTYPE html>
-
-<html><p>test</p></html>
+<html>
+	<head>
+		<title>Bummpo Wiki</title>
+		<meta charset="utf-8">
+		<meta name="referrer" content="no-referrer">
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="content.css">
+	</head>
+	<body>
+		
+		<div class="layout">
+			<aside class="sidebar">
+				<h2>Bummpo</h2>
+				<a href="?page=home">Home</a>
+				<a href="?page=rules">Rules</a>
+				<a href="?page=info">Info</a>
+				<a href="?page=rules">Random</a>
+				<a href="?page=rules">Rules</a>
+			</aside>
+			<div class="right">
+				<header class="topbar">
+					<input id="search" placeholder="Search...">
+					<button id="go">Go</button>
+				</header>
+				<main class="main">
+					<div id="content">
+					</div>
+				</main>
+			</div>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>

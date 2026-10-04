@@ -1,0 +1,118 @@
+#content code {
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    padding: 6px 6px;
+}
+
+#content a {
+    text-decoration: none;
+}
+
+#content pre {
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    padding: 15px;
+    border-left: 4px solid rgb(0, 162, 255);
+    overflow-x: auto;
+}
+
+#content pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+#content .infobox {
+    float: right;
+    width: 280px;
+    margin: 0 0 15px 20px;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: #f8f9fa;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+#content .infobox caption {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(184, 184, 184);
+    color: #000000;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 8px;
+}
+
+#content .infobox th {
+    text-align: left;
+    vertical-align: top;
+    padding: 5px 8px;
+    width: 40%;
+    white-space: nowrap;
+}
+
+#content .infobox td {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px 8px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+#content .infobox tr + tr {
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+#content .infobox img {
+    width: 70%;
+    max-width: 100%;
+    display: block;
+    margin: 8px auto 4px;
+}
+
+#content .infobox #flag {
+    max-width: 60%;
+}
+
+#content .infobox .section {
+    background-color: #dde8f0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#content .infobox .pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#content .infobox .pic {
+    flex: 1;
+    min-width: 0;
+}
+
+#content .infobox .pic img {
+    width: 100%;
+    margin: 8px auto 4px;
+}
+
+#content audio {
+    padding: 5px;
+}
+
+#content td.nowrap {
+    white-space: nowrap;
+}
+
+#content .infobox .subtitle {
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+#content .infobox #type {
+    background-color: rgb(205, 222, 255);
+    font-size: 15px;
+}
+
+#content .infobox .category {
+    background-color: rgb(205, 222, 255);
+}
