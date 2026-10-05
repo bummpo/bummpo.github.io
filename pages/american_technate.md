@@ -42,14 +42,14 @@
         <th>Capital</th>
         <td>
             <a href="?page=new_manhattan">New Manhattan</a><br>
-            <span class="subtext">3000 60 3000</span>
+            <span class="subtext">3797 63 1820</span>
         </td>
     </tr>
     <tr>
         <th>Largest City</th>
         <td>
             New Manhattan<br>
-            <span class="subtext">3000 60 3000</span>
+            <span class="subtext">3797 63 1820</span>
         </td>
     </tr>
     <tr><th>Official languages</th><td>English</td></tr>
