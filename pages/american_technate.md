@@ -8,7 +8,7 @@
         <td colspan="2">
             <div class="pics">
                 <div class="pic">
-                    <img id="flag" src="https://files.catbox.moe/8heurk.svg" alt="Flag">
+                    <img id="flag" src="https://raw.githubusercontent.com/bummpo/wiki/refs/heads/main/Betsy_Ross_flag.svg" alt="Flag">
                     <div class="caption">Flag</div>
                 </div>
             </div>
